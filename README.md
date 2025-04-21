@@ -30,15 +30,33 @@
 
 ### 📸 분류 예시 결과
 
-| 캔류 예측 | 유리병류 예측 |
-|:---------:|:-------------:|
-| ![](runs/detect/can.jpg) | ![](runs/detect/glass.jpg) |
-| ![](runs/detect/can2.jpg) | ![](runs/detect/glass2.jpg) |
+#### 🥫 캔류 예측
+<p float="left">
+  <img src="runs/detect/can.jpg" width="250"/>
+  <img src="runs/detect/can2.jpg" width="250"/>
+</p>
 
-| 비닐류 예측 | 페트병류 예측 |
-|:-----------:|:-------------:|
-| ![](runs/detect/vinyl.jpg) | ![](runs/detect/plastic.jpg) |
-| ![](runs/detect/vinyl2.jpg) | ![](runs/detect/milk.png) |
+#### 🍾 유리병류 예측
+<p float="left">
+  <img src="runs/detect/glass.jpg" width="250"/>
+  <img src="runs/detect/glass2.jpg" width="250"/>
+</p>
+
+#### 🛍️ 비닐류 예측
+<p float="left">
+  <img src="runs/detect/vinyl.jpg" width="250"/>
+  <img src="runs/detect/vinyl2.jpg" width="250"/>
+</p>
+
+#### 📄 종이류 예측
+<p float="left">
+  <img src="runs/detect/milk.png" width="250"/>
+</p>
+
+#### 🧴 페트병류 예측
+<p float="left">
+  <img src="runs/detect/plastic.jpg" width="250"/>
+</p>
 
 ## 🔧 향후 개선 방향
 
