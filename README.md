@@ -24,21 +24,43 @@
 
 ## 📊 학습 결과
 
-YOLOv5 모델은 `runs/train/trash_results3` 디렉토리에서 다음과 같은 학습 성과 지표를 생성했습니다.
-
-### 📈 학습 과정 (Loss / Precision / Recall / mAP)
-<img src="runs/train/trash_results3/results.png" width="700"/>
+YOLOv5로 학습한 쓰레기 분류 모델의 성능을 아래 시각화 자료로 정리했습니다.
 
 ---
 
-### 📊 Confusion Matrix (혼동 행렬)
+### 📌 1. Confusion Matrix (혼동 행렬)
+
 <img src="runs/train/trash_results3/confusion_matrix.png" width="700"/>
 
+- 예측된 클래스와 실제 클래스 간의 관계를 시각화한 표입니다.
+- 색이 진할수록 올바르게 분류된 비율이 높음을 의미합니다.
+- 라벨 순서는 다음과 같습니다:
+  - **비닐류, 유리병류, 종이류, 캔류, 페트병류, background**
+
 ---
 
-### 🔄 Precision-Recall Curve
+### 📌 2. Precision-Recall Curve (정밀도-재현율 곡선)
+
 <img src="runs/train/trash_results3/PR_curve.png" width="700"/>
 
+- 각 클래스별 정밀도(Precision)와 재현율(Recall)의 관계를 나타냅니다.
+- 전체 클래스의 평균 mAP@0.5는 **0.891**로 우수한 성능을 보입니다.
+- 라벨 순서:
+  - **비닐류, 유리병류, 종이류, 캔류, 페트병류**
+
+---
+
+### 📌 3. 학습 과정 시각화 (Loss / Precision / Recall 등)
+
+<img src="runs/train/trash_results3/results.png" width="1000"/>
+
+- 좌측부터 박스, 객체, 클래스 손실값이 지속적으로 감소하는 것을 확인할 수 있습니다.
+- 우측 상단의 Precision / Recall 그래프에서 꾸준한 향상이 이루어진 점이 인상적입니다.
+- 하단의 mAP 지표들도 안정적으로 상승해 **모델이 잘 수렴**되었음을 보여줍니다.
+
+---
+
+이 자료들은 `runs/train/trash_results3/` 경로에 위치하며, 모델 성능을 직관적으로 확인할 수 있도록 구성되어 있습니다.
 
 
 ## ✅ 결과 요약
