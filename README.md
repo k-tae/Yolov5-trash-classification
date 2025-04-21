@@ -26,9 +26,19 @@
 
 YOLOv5 모델은 `runs/train/trash_results3` 디렉토리에서 다음과 같은 학습 성과 지표를 생성했습니다.
 
-| Loss & mAP | Confusion Matrix | PR Curve |
-|:----------:|:----------------:|:--------:|
-| ![](runs/train/trash_results3/results.png) | ![](runs/train/trash_results3/confusion_matrix.png) | ![](runs/train/trash_results3/PR_curve.png) |
+### 📈 학습 과정 (Loss / Precision / Recall / mAP)
+<img src="runs/train/trash_results3/results.png" width="700"/>
+
+---
+
+### 📊 Confusion Matrix (혼동 행렬)
+<img src="runs/train/trash_results3/confusion_matrix.png" width="700"/>
+
+---
+
+### 🔄 Precision-Recall Curve
+<img src="runs/train/trash_results3/PR_curve.png" width="700"/>
+
 
 
 ## ✅ 결과 요약
