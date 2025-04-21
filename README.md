@@ -22,6 +22,15 @@
   - `epochs`: 25 (과적합 방지 목적)
 - **성능 평가**: Precision, Recall 등을 통해 평가
 
+## 📊 학습 결과
+
+YOLOv5 모델은 `runs/train/trash_results3` 디렉토리에서 다음과 같은 학습 성과 지표를 생성했습니다.
+
+| Loss & mAP | Confusion Matrix | PR Curve |
+|:----------:|:----------------:|:--------:|
+| ![](runs/train/trash_results3/results.png) | ![](runs/train/trash_results3/confusion_matrix.png) | ![](runs/train/trash_results3/PR_curve.png) |
+
+
 ## ✅ 결과 요약
 
 - **정확한 분류**: 비닐류, 캔류, 유리병류
