@@ -6,7 +6,7 @@
 
 - **목적**: 쓰레기 자동 분류를 통해 재활용 효율 향상 및 환경 보호
 - **기술**: YOLOv5 (PyTorch 기반 실시간 객체 탐지 모델)
-- **데이터셋**: AIHub 생활 폐기물 이미지 데이터 (총 15종 중 5종 사용)
+- **데이터셋**: [AIHub 생활 폐기물 이미지 데이터 (총 15종 중 5종 사용)](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=140)
 - **분류 대상**: 비닐류, 유리병류, 종이류, 캔류, 페트병류
 
 ## 📁 데이터 처리
